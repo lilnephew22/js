@@ -1,0 +1,13 @@
+const header = document.querySelector("h1");
+const headerStyle = "background-color: lightgreen";
+header.style = headerStyle;
+const div = document.querySelector("div")
+const pars = div.children;
+pars[0].style.fontWeight = "bold";
+pars[1].style.color = "red";
+pars[2].style.textDecoration = "underline";
+pars[3].style.fontStyle = "italic";
+const list = document.querySelector("#myList")
+list.style = 'display: flex; list-style: none';
+const span = document.querySelector("span");
+span.style.display = "none";
